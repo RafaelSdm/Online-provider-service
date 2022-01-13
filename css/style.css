@@ -99,3 +99,68 @@ header #menu-bar{
     cursor: pointer;
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.home{
+    display: flex;
+    align-items: center;
+    background: url(../images/home-bg.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+
+}
+
+
+.home .image{
+    padding-top: 4rem;
+    flex: 1 1 40rem;
+}
+
+.home .content{
+    padding: 1rem;
+    flex: 1 1 40rem;
+
+}
+
+
+.home .content h3{
+    color: #fff;
+    font-size: 5.5rem;
+    text-transform: uppercase;
+}
+
+.home .content p{
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.home .image img{
+    width: 100%;
+}
+
+.home .content .btn{
+    color: #444;
+    background: #fff;
+}
+
+.home .content .btn:hover{
+    color: #fff;
+    background: none;
+    border-color: #fff;
+}
